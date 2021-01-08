@@ -1,0 +1,234 @@
+/* FEUILLE DE STYLES POUR TOUS LES STYLES DE L'APPLICATION */
+
+html
+{
+  font:11px Arial, Helvetica, sans-serif;
+  color:white;
+}
+.entete
+{
+  max-width: 100%;
+  text-align: center;
+}
+.main
+{
+  margin: 10%,10%,10%,10%;
+  padding: 10%,10%,10%,10%;
+  display: inline-block;
+  color: white;
+  background-color: #181932;
+  max-width : 80%;
+}
+
+.content
+{
+  margin: 10%,10%,10%,10%;
+  padding: 10%,10%,10%,10%;
+}
+
+body
+{
+width : 100%;
+background-color: #151427;
+}
+
+.body 
+{
+  background-color: #6699cc;
+  color:blue;
+  font:11px Arial, Helvetica, sans-serif;
+}
+
+.basePage 
+{
+  font:11px Arial, Helvetica, sans-serif;
+}
+
+h1, h2
+{
+  background-color:#6699cc;
+  font:3em Arial, Helvetica, sans-serif;
+  text-align:center;
+  font-weight: 800;
+} 
+
+h2
+{
+  font:20px Arial, Helvetica, sans-serif;
+}
+
+h5
+{
+  font:14px Arial, Helvetica, sans-serif;
+}
+
+a
+{
+  text-decoration : none;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+td a
+{
+  color : white;
+}
+
+.gauche
+{
+  float: left; 
+  background-color : #6699cc;
+  top:expression(documentElement.scrollTop+body.scrollTop);
+  border-radius: 4px;
+  height : 100%;
+  width: 15%;
+  margin : 2%;
+  text-align:left;
+}
+
+.centre
+{
+	position: absolute;
+	Margin-left: 180px;
+	font-weight:normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+  color:blue;
+}
+
+.menugauche
+{
+  list-style-type: none;
+  margin: 2%;
+  padding:2%;
+  font:12px Arial, Helvetica, sans-serif;
+  color:blue;
+}
+
+.menugauche li
+{
+  font-weight: 800;
+  font-size: 1em;
+  color : white;
+  font-style : bold;
+}
+
+.menugauche li a
+{
+  text-decoration: none;
+  line-height : 1em;
+  font-weight: 200;
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  color: white;
+  overflow: hidden;
+}
+
+.menugauche a:hover
+{
+  margin-left: 4%;
+  background-color: #6699cc;
+  text-decoration: none;
+}
+
+/* STYLES POUR LES TABLEAUX QUADRILLÉS */
+/* Style des tableaux avec quadrillage : épaisseur du quadrillage 1px, 
+espacement de 3x entre la bordure gauche de chaque cellule et le texte */
+table.tabQuadrille td
+{
+  color: white;
+  border-bottom:1px solid #777777;
+  border-right:1px solid #777777;
+  border-left:1px solid #777777;
+  border-top:1px #777777;
+  padding-left:3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+} 
+
+/* Style pour la 1ère ligne d'en-tête des tableaux quadrillés : fond avec 
+nuances de jaune et texte centré */
+tr.enTeteTabQuad
+{
+  background-image:url('../images/xpBarre.jpg');
+  height:21px;
+  text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+} 
+
+/* Style pour les lignes (autres que la 1ère ligne d'en-tête) des tableaux 
+quadrillés : fond écru et texte centré */
+tr.ligneTabQuad 
+{
+   background-color: #6699cc;
+   text-align:center;
+   color:white;
+}
+
+/* STYLES POUR LES TABLEAUX NON QUADRILLÉS */
+
+table.tabNonQuadrille 
+{
+  border-radius: 4px;
+  margin : 2%;
+  padding: 2%;
+  background-color: #6699cc;
+  width : 95%;
+  cellspacing : 0;
+  cellpadding : 0;
+  box-shadow: 2px;
+}
+ 
+/*style pour les en-tetes de tableau*/
+tr.enTeteTabNonQuad td
+{
+  background-image:url('../images/xpBarre.jpg');
+  height:2em;
+  text-align:center;
+  font-weight:800;
+  border-bottom:1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+} 
+
+/* Style pour les lignes (autres que la 1ère ligne d'en-tête) des tableaux*/
+tr.ligneTabNonQuad td
+{
+  background-color: #6699cc;
+  height:2em;
+  text-align:left;
+  color:white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+  width : 10%;
+} 
+tr.ligneTabNonQuad a
+{
+  font-weight: 800;
+}
+
+tr.ligneTabNonQuad a:hover
+{
+  font-weight: 800;
+  font-style: italic;
+}
+
+input
+{
+  border-style: none;
+  border-radius: 4px;
+}
+
+/* Style pour les formulaires */ 
+.formulaire{
+  text-align: center;
+}
+.formulaire a:visited{
+color : white;
+}
+.formulaire li
+{
+text-align: center;
+list-style:none;
+}
